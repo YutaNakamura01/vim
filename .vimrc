@@ -107,3 +107,6 @@ set hlsearch
 " ESC連打でハイライト解除
 "nmap <Esc><Esc> :nohlsearch<CR><Esc>
 nmap  ff :nohlsearch<CR><Esc>
+
+" クリップボードを共通化
+set clipboard+=unnamed
